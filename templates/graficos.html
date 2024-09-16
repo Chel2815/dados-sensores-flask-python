@@ -35,7 +35,7 @@
 
             const ctx = document.getElementById('graficoTemperaturaUmidade').getContext('2d');
             const grafico = new Chart(ctx, {
-                type: 'line', // Tipo de gráfico (pode ser alterado para 'bar', 'pie', etc)
+                type: 'pie', // Tipo de gráfico (pode ser alterado para 'bar', 'pie', etc)
                 data: {
                     labels: dadosSensores.timestamp, // Eixo x (timestamps)
                     datasets: [
